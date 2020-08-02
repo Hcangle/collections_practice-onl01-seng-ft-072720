@@ -94,7 +94,11 @@ end
       expect(sum_array([11,4,7,8,9,100,134])).to eq(273)
     end
   end
-
+def sum_array (array)
+  array.inject do |sum, num|
+    sum + num
+  end
+end
 
   # Question 9
   describe '#add_s' do
