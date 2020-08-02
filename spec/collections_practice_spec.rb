@@ -43,6 +43,11 @@ end
       expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
     end
   end
+  
+def swap_elements (array)
+  array[1], array[2] = array[2], array[1]
+  array
+end
 
   # Question 5
   describe '#reverse_array' do
