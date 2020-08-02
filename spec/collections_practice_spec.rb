@@ -20,8 +20,8 @@ describe 'collections practice' do
   end
   
   def sort_array_desc (array)
-    array.sort {|x,y| x <=> y }
-  end
+  array.sort {|x,y| y <=> x }
+end
 
   # Question 3
   describe '#sort_array_char_count' do
