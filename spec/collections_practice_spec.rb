@@ -31,15 +31,18 @@ end
   end
 
 def sort_array_char_count (array)
-  array.sort |a, b|
-    a <=> b
+  array.sort do |a, b|
+  if a == b
+    0
+  elsif a < b
+    -1
+  elsif a > b
+    1
   end
 end
   
 
-
-
-  # Question 4
+# Question 4
   describe '#swap_elements' do
     it 'swap the second and third elements of an array' do
       expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
