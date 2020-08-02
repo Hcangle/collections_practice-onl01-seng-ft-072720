@@ -67,7 +67,12 @@ end
       expect(kesha_maker(["blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"])
     end
   end
-  
+  def kesha_maker (array)
+  array.collect do |element|
+    element[2] = "$"
+    element
+  end
+end
 
   # Question 7
   describe '#find_a' do
