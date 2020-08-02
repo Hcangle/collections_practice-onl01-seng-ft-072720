@@ -81,7 +81,11 @@ end
     end
   end
   
-  
+  def find_a (array)
+  array.select do |word|
+    word.chr == "a"
+  end
+end
 
   # Question 8
   describe '#sum_array' do
