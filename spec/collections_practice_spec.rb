@@ -29,6 +29,10 @@ end
       expect(sort_array_char_count(["dogs", "cat", "Horses"])).to eq(["cat", "dogs", "Horses"])
     end
   end
+def sort_array_char_count (array)
+  array.sort 
+
+
 
   # Question 4
   describe '#swap_elements' do
