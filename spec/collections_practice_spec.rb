@@ -9,7 +9,8 @@ describe 'collections practice' do
     #end
   #end
   def sort_array_asc(array)
-    
+    array.sort
+  end
 
   # Question 2
   describe '#sort_array_desc' do
