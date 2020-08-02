@@ -39,6 +39,7 @@ def sort_array_char_count (array)
   elsif a > b
     1
   end
+ end
 end
   
 
