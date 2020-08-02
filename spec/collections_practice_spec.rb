@@ -55,6 +55,10 @@ end
       expect(reverse_array([12, 4, 35])).to eq([35, 4, 12])
     end
   end
+  
+def reverse_array (array)
+  array.reverse
+end
 
   # Question 6
   describe '#kesha_maker' do
