@@ -20,7 +20,7 @@ describe 'collections practice' do
   end
   
   def sort_array_desc (array)
-    array.sort {|x,y| x <=> y}
+    array.sort {|x,y| x <=> y }
   end
 
   # Question 3
