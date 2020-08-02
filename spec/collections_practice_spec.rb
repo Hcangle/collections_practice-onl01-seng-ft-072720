@@ -20,7 +20,7 @@ describe 'collections practice' do
    # end
   #end
   def sory_array_desc (array)
-    array.sort {\
+    array.sort {|a,b|} a <=> b
 
   # Question 3
   describe '#sort_array_char_count' do
