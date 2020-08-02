@@ -80,6 +80,8 @@ end
       expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
     end
   end
+  
+  
 
   # Question 8
   describe '#sum_array' do
