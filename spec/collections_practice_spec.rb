@@ -29,10 +29,12 @@ end
       expect(sort_array_char_count(["dogs", "cat", "Horses"])).to eq(["cat", "dogs", "Horses"])
     end
   end
+
 def sort_array_char_count (array)
-  array.sort do |a, b|
-    a <=> b
+  array.sort do |x, y|
+    x <=> y
   end
+end
   
 
 
