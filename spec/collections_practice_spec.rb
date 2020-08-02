@@ -12,15 +12,14 @@ describe 'collections practice' do
     array.sort
   end
   
-
-  # Question 2
+# Question 2
   describe '#sort_array_desc' do
    it 'should return an array sorted in descending order' do
       expect(sort_array_desc([25, 7, 14])).to eq([25, 14, 7])
     end
   end
   
-  def sory_array_desc (array)
+  def sort_array_desc (array)
     array.sort {|a,b| a <=> b}
   end
 
